@@ -1,11 +1,11 @@
 #binary searches 
-#funtion that calls a binary search where the input array is a collection of the items and the search value indicates the value youre looking for
+#function that calls a binary search where the input array is a collection of the items and the search value indicates the value you are looking for.
 def binary_search(input_array,search_value):
-#beginning is avariable that helps initiate the index of the first input value of your list.
+#beginning is a variable that helps initiate the index of the first input value of your list.
     beginning = 0
-#end indicates the index of the last value in the list-we subtract one to achieve that .
+#end indicates the index of the last value in the list -we subtract one to achieve that .
     end = len(input_array) - 1
-#the while loop helps insert conditions that prompt the program to return the value one is searching for
+#the while loop helps insert conditions that prompts the program to return the value a user is searching for
     while beginning <= end:
 #since the binary serach uses the divide and conquer mechanism we find the middle value using the formula below
         middle = int((beginning + end)/2)
@@ -29,7 +29,11 @@ search_value1= 3
 search_value2 = 9
 search_value3 = 15 
 #return bolean results.
+
+#returns true to indicate that value exists in the input array
 print(binary_search(test_list,search_value1))
+#returns true to indicate that value exists in the input array
 print(binary_search(test_list,search_value2))
+#returns false to indicate that value does not exist in the input array
 print(binary_search(test_list,search_value3))
          
