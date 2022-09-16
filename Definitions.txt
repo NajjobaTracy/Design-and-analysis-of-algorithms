@@ -1,0 +1,35 @@
+Data Stuctures- These are a specialized format for organizing,processing retrieving and storing Data
+
+Algorithms-these are a step by step list of set instructions,used to solve problems or perform tasks based on the understanding of available alternatives
+
+Parallelism-is the study of,design and implementation of algorithms in a way as to make use of multiple processors to solve a problem
+
+Linear Programming-is a mathematical method that is used to detaermine the best possible outcome or solution from a given set of parameters or list of requirements which are represented in the form of linear relationships.
+
+Armotized analysis-is a method of analyzing the costs associated with with a data structure that averages the worst operations over time.
+
+Big O- A theoretical measure of the execution of an algorithm ,usually the time or memory needed, given the problem size n,which is usually the number of items.
+
+Omega Notation- is the formal way to express the  lower bound of an algorithms run time, it measures the best case time complexity an algorithm takes to run.
+
+Theta notation-is the notation that encloses the function from above and below as it represents the upper and lower bound of the running time of an algorithm,mainly uesd for analyzing the average case complexity of an algorithm.
+
+Binary Search-is an efficient algorithm for finding an item from a sorted list of items.
+
+Efficiency-the efficiency of an algorithm defines the number of computational resources used by an algorithm and time taken by an algorithm to produce the desired result.
+
+Time complexity-is a concept in computer science that deals with the quantification of the amount of time taken by a set of code or algorithm to process or run as a function of the amount of input. 
+
+Upper bound-if an algorithm has an upper bound,this means that it is guaranteed to execute in; times some constant at most,even in the worst case scenario.
+
+Amortized analysis methods-are methods of analyzing the costs associated with a data structure that averages the worst operations out over time.
+
+Aggregate method-is the method that involves counting out the complexity of each operation.
+
+Accounting method-Is the method that involves imposing an extra charge on inexpensive operations and use it to pay for expensive operations later on
+
+Potential method-is the method that measurwa its performances over sequences of operations thats smooths out the cost of infrequent but expensive operations.
+
+Arrays-An array is a collectionof items of same data type store at contigous memory locations. 
+
+Linked lists-is a linear collection of data elements is not given by their physical placement in memory 
