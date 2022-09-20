@@ -1,12 +1,13 @@
+#declare your array
 z=[5,2,4,6,1,3]
-print("array before sorting")
+print("array before using the insertion sort algorithm ")
 print(z)
 
 print("Array size")
 x=1
 print(len(z))
 
-
+#x and y are in reference to the index positions
 while x < len(z):
     c=z[x]
 
@@ -15,8 +16,10 @@ while x < len(z):
         z[y+1]=z[y]
         y=y-1
     z[y+1]=c
+   
     x=x+1
-print("Array after sorting")  
+
+print("Array after using the insertion sort")  
 print(z)
 
 
