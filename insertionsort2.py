@@ -1,5 +1,5 @@
 #declare your array
-z=[5,2,4,6,1,3]
+z=[5,2,4,6,1,3] 
 print("array before using the insertion sort algorithm ")
 print(z)
 
