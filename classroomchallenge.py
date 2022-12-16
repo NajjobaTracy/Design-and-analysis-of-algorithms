@@ -18,9 +18,9 @@ dailyRota=[]
 
 studentMealList=[]
 
-studentMealList.append(student("Q","S21B23/019","A94172","B23","THURSDAY","FALSE"
+studentMealList.append(student("Q","S21B23/019","A94172","B23","THURSDAY",False
 ))
-studentMealList.append(student("A","S21B13/060","A94446","B13","THURSDAY","TRUE"))
+studentMealList.append(student("A","S21B13/060","A94446","B13","THURSDAY",True))
 
 dailyRota.append(servingRota("Monday",studentMealsList))
 dailyRota.append(servingRota("Tuesday",studentMealsList))
@@ -43,4 +43,4 @@ def searchToMarkMealCard(cafeteriaList, registrationNumber, dayOfTheWeek):
     return False
 
 #Write a function that will update the Cafeteria's registry to "hasEaten" attribute to True, when
-print()
+print(searchToMarkMealCard(dailyRota))

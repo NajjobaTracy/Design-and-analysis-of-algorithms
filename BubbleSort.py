@@ -14,4 +14,4 @@ def bubble_sort(array):
     return array
 
 input_array = [6,4,9,1,3]
-bubble_sort(input_array)
+print(bubble_sort(input_array))

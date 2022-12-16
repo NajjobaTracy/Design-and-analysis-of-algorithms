@@ -14,7 +14,7 @@ def linearsearch2(z,value):
     z=[]
     for i in range (0,len(z)):
         if list[i]==value:
-         z.appendl(list[i])
+         z.append(list[i])
         return -1   
     return z        
                
